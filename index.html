@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOP - Document Verification Process</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+</head>
+<body>
+
+    <!-- Progress Bar -->
+    <div id="progressBar"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-file-shield"></i>
+            Tannu (34157)
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#workflow">Workflow</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#matrix">Matrix</a></li>
+            <li><a href="#guidelines">Guidelines</a></li>
+        </ul>
+
+        <div class="nav-search">
+            <input type="text" id="searchInput" placeholder="Search sections..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="badge">Standard Operating Procedure</span>
+            <h1>Document Verification & Official Correspondence Process</h1>
+            <p>
+                A structured workflow for handling verification requests,
+                correspondence tracking, approval, dispatch, and official record maintenance.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#workflow" class="btn primary-btn">Explore Workflow</a>
+                <a href="#matrix" class="btn secondary-btn">Responsibility Matrix</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section" id="overview">
+        <div class="section-header">
+            <h2>Quick Overview</h2>
+            <p>Core SOP highlights and operational scope.</p>
+        </div>
+
+        <div class="cards-grid searchable">
+            <div class="glass-card">
+                <i class="fa-solid fa-bullseye"></i>
+                <h3>Purpose</h3>
+                <p>
+                    Define standard procedures for document verification,
+                    official correspondence, dispatch, and tracking.
+                </p>
+            </div>
+
+            <div class="glass-card">
+                <i class="fa-solid fa-layer-group"></i>
+                <h3>Scope</h3>
+                <p>
+                    Degree verification, accreditation, fee details,
+                    pharmacy council verification, regulatory correspondence.
+                </p>
+            </div>
+
+            <div class="glass-card">
+                <i class="fa-solid fa-building"></i>
+                <h3>Departments</h3>
+                <p>
+                    CMS, AO Office, CD Office,
+                    Authorized Signatory, Dispatch Team.
+                </p>
+            </div>
+
+            <div class="glass-card">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Timeline</h3>
+                <p>
+                    Internal processing within 7 working days
+                    and dispatch delivery within 5–7 days.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Timeline -->
+    <section class="section" id="workflow">
+        <div class="section-header">
+            <h2>Workflow / Process Flow</h2>
+            <p>Interactive SOP process timeline.</p>
+        </div>
+
+        <div class="timeline searchable">
+
+            <div class="timeline-item">
+                <div class="timeline-dot">1</div>
+                <div class="timeline-content accordion">
+                    <h3>Receipt of Letter</h3>
+                    <p>Verification letters are initially received at CMS.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">2</div>
+                <div class="timeline-content accordion">
+                    <h3>Forwarding of Request</h3>
+                    <p>
+                        CMS forwards to AO Office →
+                        CD Office → concerned official.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">3</div>
+                <div class="timeline-content accordion">
+                    <h3>Entry & Record Maintenance</h3>
+                    <p>
+                        All requests must be entered into
+                        division records before processing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">4</div>
+                <div class="timeline-content accordion">
+                    <h3>Review & Categorization</h3>
+                    <p>
+                        Requests categorized into standard verification,
+                        fee details, pharmacy, accreditation, special cases.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">5</div>
+                <div class="timeline-content accordion">
+                    <h3>Drafting of Reply</h3>
+                    <p>
+                        Reply/verification letter is prepared
+                        after reviewing supporting documents.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">6</div>
+                <div class="timeline-content accordion">
+                    <h3>Reference Number Generation</h3>
+                    <p>
+                        Generated using Mail Dispatch Entry Interface
+                        with required communication details.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">7</div>
+                <div class="timeline-content accordion">
+                    <h3>Approval & Signature</h3>
+                    <p>
+                        Draft reply is approved and signed
+                        by authorized signatory.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">8</div>
+                <div class="timeline-content accordion">
+                    <h3>Sealing & Dispatch Preparation</h3>
+                    <p>
+                        Signed documents are sealed
+                        and prepared for dispatch.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">9</div>
+                <div class="timeline-content accordion">
+                    <h3>Dispatch of Reply</h3>
+                    <p>
+                        Replies dispatched via Registered Post,
+                        Business Post, Email, or By Hand.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">10</div>
+                <div class="timeline-content accordion">
+                    <h3>Uploading & Record Closure</h3>
+                    <p>
+                        Soft copy uploaded in UMS,
+                        dispatch and tracking records updated.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Departments -->
+    <section class="section" id="departments">
+        <div class="section-header">
+            <h2>Departments / Offices Involved</h2>
+            <p>Operational responsibility units.</p>
+        </div>
+
+        <div class="cards-grid searchable">
+
+            <div class="glass-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>CMS</h3>
+                <p>Central Mail Section for receiving and dispatching.</p>
+            </div>
+
+            <div class="glass-card">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>AO Office</h3>
+                <p>Request assignment and internal forwarding.</p>
+            </div>
+
+            <!-- <div class="glass-card">
+                <i class="fa-solid fa-folder-open"></i>
+                <h3>OMC</h3>
+                <p>Office Management Cell for routing & records.</p>
+            </div> -->
+
+            <div class="glass-card">
+                <i class="fa-solid fa-users-gear"></i>
+                <h3>CD Office</h3>
+                <p>Central control for verification workflow.</p>
+            </div>
+
+            <div class="glass-card">
+                <i class="fa-solid fa-signature"></i>
+                <h3>Authorized Signatory</h3>
+                <p>Approvals and signature authority.</p>
+            </div>
+
+            <div class="glass-card">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Dispatch Team</h3>
+                <p>Final dispatch and tracking responsibility.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Responsibility Matrix -->
+    <section class="section" id="matrix">
+        <div class="section-header">
+            <h2>Responsibility Matrix</h2>
+            <p>Department-wise ownership mapping.</p>
+        </div>
+
+        <div class="table-wrapper searchable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Department</th>
+                        <th>Responsibility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CMS</td>
+                        <td>Receipt & dispatch handling</td>
+                    </tr>
+                    <tr>
+                        <td>AO Office</td>
+                        <td>Assignment / forwarding</td>
+                    </tr>
+                    <tr>
+                        <td>OMC / CD Office</td>
+                        <td>Record management & routing</td>
+                    </tr>
+                    <tr>
+                        <td>Concerned Official</td>
+                        <td>Drafting & verification</td>
+                    </tr>
+                    <tr>
+                        <td>Authorized Signatory</td>
+                        <td>Approval & signature</td>
+                    </tr>
+                    <tr>
+                        <td>Dispatch Team</td>
+                        <td>Final dispatch</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Timelines -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Operational Timelines</h2>
+            <p>Expected processing efficiency.</p>
+        </div>
+
+        <div class="timeline-bars searchable">
+            <div class="progress-card">
+                <span>Internal Processing Timeline</span>
+                <div class="progress-track">
+                    <div class="progress-fill fill-80"></div>
+                </div>
+                <p>Within 7 working days</p>
+            </div>
+
+            <div class="progress-card">
+                <span>Dispatch Delivery Timeline</span>
+                <div class="progress-track">
+                    <div class="progress-fill fill-70"></div>
+                </div>
+                <p>Approx. 5–7 working days</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Systems -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Systems & Interfaces Used</h2>
+            <p>Digital workflow support systems.</p>
+        </div>
+
+        <div class="cards-grid searchable">
+            <div  class="glass-card" id ="mailDispatchCard">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>Mail Dispatch Entry</h3>
+                <p>Reference number generation & communication tracking.</p>
+            </div>
+
+            <div class="glass-card" id="printexternal">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <h3>Print External Interface (UMS)</h3>
+                <p>Uploading soft copies after dispatch.</p>
+            </div>
+
+            <div class="glass-card" id="recordregister">
+                <i class="fa-solid fa-book"></i>
+                <h3>Record Registers</h3>
+                <p>Departmental record management and archive.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guidelines -->
+    <section class="section" id="guidelines">
+        <div class="section-header">
+            <h2>Important Guidelines</h2>
+            <p>Compliance & operational integrity.</p>
+        </div>
+
+        <div class="guidelines searchable">
+            <div class="check-item">✔ All replies must carry proper reference numbers.</div>
+            <div class="check-item">✔ Soft copies must be uploaded after dispatch.</div>
+            <div class="check-item">✔ Direct requests must also be officially recorded.</div>
+            <div class="check-item">✔ Confidentiality & accuracy must be maintained.</div>
+        </div>
+    </section>
+
+    <!-- Annexure -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Annexures</h2>
+            <p>Optional support materials.</p>
+        </div>
+
+        <div class="cards-grid searchable">
+            <div class="glass-card annex-card">Sample Verification Letter</div>
+            <div class="glass-card annex-card">Sample Dispatch Entry</div>
+            <div class="glass-card annex-card">Reference Number Format</div>
+            <div class="glass-card annex-card">Workflow Chart</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>SOP Portal</h3>
+        <p>
+            Document Verification & Official Correspondence Process
+        </p>
+        <span>Version 1.0 | Confidential Internal Process</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
