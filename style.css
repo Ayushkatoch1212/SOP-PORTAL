@@ -582,15 +582,15 @@ tr:hover {
 
 /* Actual images */
 #mailDispatchCard {
-    background-image: url("./image/maildispatchimage.jpeg") !important;
+    background-image: url("./maildispatchimage.jpeg") !important;
 }
 
 #printexternal {
-    background-image: url("./image/printexternalimage.jpeg") !important;
+    background-image: url("./printexternalimage.jpeg") !important;
 }
 
 #recordregister {
-    background-image: url("./image/RecordRegisterimage.jpeg") !important;
+    background-image: url("./RecordRegisterimage.jpeg") !important;
 }
 
 /* dark overlay */
